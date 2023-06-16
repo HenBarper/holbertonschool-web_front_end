@@ -450,6 +450,11 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    .footer
+    {
+        padding: var(--footer-padding);
+    }
     
     :root 
     {
@@ -481,9 +486,4 @@
         --section-footer-padding: 3rem, 0, 0;
         --section-footer-align: center;
         --footer-padding: 5rem, 0, 1rem;
-    }
-    
-    .footer
-    {
-        padding: var(--footer-padding);
     }
