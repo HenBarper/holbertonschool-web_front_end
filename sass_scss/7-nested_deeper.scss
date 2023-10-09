@@ -1,0 +1,13 @@
+$twelve: 12px;
+$fourteen: 14px;
+$sixteen: 16px;
+
+body{
+    font-size: $fourteen;
+    h1{
+        font-size: $sixteen;
+        .smaller{
+            font-size: $twelve;
+        }
+    }
+}
