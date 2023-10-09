@@ -1,0 +1,17 @@
+@mixin div-mix(){
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+@mixin body-mix(){
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+body{
+    @include body-mix();
+}
+
+div{
+    @include div-mix();
+}
