@@ -1,0 +1,13 @@
+%twelve{
+    font-size: 12px;
+}
+
+.success{
+    @extend %twelve;
+    color: #00FF00;
+}
+
+.warning{
+    @extend %twelve;
+    color: #FF0000;
+}
