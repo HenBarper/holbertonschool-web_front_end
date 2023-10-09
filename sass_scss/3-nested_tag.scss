@@ -1,0 +1,11 @@
+$zero-pix: 0px;
+$ten-pix: 10px;
+
+body{
+    margin: $zero-pix;
+    padding: $zero-pix;
+
+    p{
+        margin: $ten-pix;
+    }
+}
