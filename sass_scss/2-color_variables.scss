@@ -1,0 +1,13 @@
+$favorite-color: #3D3D3D;
+$bg-color: #6D6D6D;
+
+body{
+    color: $favorite-color;
+    background-color: $bg-color;
+}
+p{
+    color: $favorite-color;
+}
+h2{
+    background-color: $bg-color;
+}
