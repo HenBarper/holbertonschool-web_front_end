@@ -2,6 +2,10 @@
     font-size: 12px;
 }
 
+.info{
+    @extend %twelve;
+}
+
 .success{
     @extend %twelve;
     color: #00FF00;
