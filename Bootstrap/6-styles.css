@@ -1,36 +1,36 @@
 /* btn-primary has as background color set to #E0003C and #BC1340 for hover/focus/active */
 .btn-primary {
-    background-color: #E0003C;
+    background-color: #E0003C !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background-color: #BC1340;
+    background-color: #BC1340 !important;
 }
 
 /* btn-outline-primary has text and border color set to #E0003C */
 .btn-outline-primary {
-    color: #E0003C;
-    border-color: #E0003C;
+    color: #E0003C !important;
+    border-color: #E0003C !important;
 }
 
 /* a link (no matter which color forced) has text color set to #E0003C normally, in hover and in focus */
 a, a:hover, a:focus {
-    color: #E0003C;
+    color: #E0003C !important;
 }
 
 /* Card (card container, but also header/footer) has border color set to #E0003C and radius to 1rem */
 .card, .card-header, .card-footer {
-    border-color: #E0003C;
+    border-color: #E0003C !important;
     border-radius: 1rem;
 }
 
 .card-header {
-    background-color: #E0003C;
+    background-color: #E0003C !important;
     color: white;
 }
 
 
 /* .text-muted has text color set to #8C8C8C */
 .text-muted {
-    color: #8C8C8C;
+    color: #8C8C8C !important;
 }
