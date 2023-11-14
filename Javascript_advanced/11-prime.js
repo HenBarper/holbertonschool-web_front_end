@@ -18,14 +18,18 @@ function countPrimeNumbers() {
     return primeCount;
 }
 
-const startTime = performance.now();
+const runIt = () => {
+    const startTime = performance.now();
 
-for (let times = 1; times <= 100; times++) {
-    countPrimeNumbers();
+    for (let times = 1; times <= 100; times++) {
+        countPrimeNumbers();
+    }
+
+    const endTime = performance.now();
+
+    const timer = endTime - startTime;
+
+    console.log("Execution time of calculating prime numbers 100 times was " + timer + " milliseconds.");
 }
 
-const endTime = performance.now();
-
-const timer = endTime - startTime;
-
-console.log("Execution time of calculating prime numbers 100 times was " + timer + " milliseconds.");
+setTimeout(runIt, 0);
