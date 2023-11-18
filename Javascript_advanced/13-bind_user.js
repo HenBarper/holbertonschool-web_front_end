@@ -10,7 +10,7 @@ let user = {
     logWelcomeUser: function(welcomeString) {
         console.log(welcomeString + ", " + user.firstName + ". Your occupation is: " + user.occupation);
     }
-}
+};
 
 const bindLogWelcomeUser = user.logWelcomeUser.bind("Welcome");
 
