@@ -18,10 +18,6 @@
               $('tbody').append($("<tr>").append($('<td>').text(firstName)).append($('<td>').text(lastName)).append($('<td id="close">').text('(X)').css("background-color", "orange")));
             }
 
-            // $('#close').click(function() {
-            //   $(this).parent().remove();
-            // });
-
             $('body').on('click', '#close', function () {
                 $(this).closest('tr').remove();
             });
