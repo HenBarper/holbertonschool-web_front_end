@@ -9,9 +9,9 @@
           $(document).ready(function(){
             function createFamilyTree() {
               $('body').append("<table>");
-              $('body').append("<thead>");
+              $('table').append("<thead>");
               $('thead').append($("<tr>").append($('<th>').text('Firstname')).append($('<th>').text('Lastname')));
-              $('body').append("<tbody>");
+              $('table').append("<tbody>");
               $('tbody').append($("<tr>").append($('<td>').text('Guillaume')).append($('<td>').text('Salva')));
               $('tbody').append($("<tr>").append($('<td>').text('Paulette')).append($('<td>').text('Salva')));
               $('tbody').append($("<tr>").append($('<td>').text('Antoine')).append($('<td>').text('Salva')));
