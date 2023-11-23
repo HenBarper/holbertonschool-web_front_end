@@ -8,7 +8,6 @@ function setCookies() {
 }
 
 function showCookies() {
-    // let cookies = document.cookie;
     let p = document.createElement('p');
     let cookEmail = getCookie('email');
     let cookName = getCookie('firstname');
